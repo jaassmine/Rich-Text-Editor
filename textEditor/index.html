@@ -10,29 +10,29 @@
 <body onload="enableEditMode() ;">
     <div class="container">
         <div  class = "containerBox">
-            <button onclick="execCmd('bold');"><i class="fa fa-bold"></i></button>
-            <button onclick="execCmd('italic');"><i class="fa fa-italic"></i></button>
-            <button onclick="execCmd('underline');"><i class="fa fa-underline"></i></button>
-            <button onclick="execCmd('strikethrough');"><i class="fa fa-strikethrough"></i></button>
-            <button onclick="execCmd('justifyLeft');"><i class="fa fa-align-left"></i></button>
-            <button onclick="execCmd('justifyCenter');"><i class="fa fa-align-center"></i></button>
-            <button onclick="execCmd('justifyRight');"><i class="fa fa-align-right"></i></button>
-            <button onclick="execCmd('justifyFull');"><i class="fa fa-align-justify"></i></button>
-            <button onclick="execCmd('cut');"><i class="fa fa-cut"></i></button>
-            <button onclick="execCmd('copy');"><i class="fa fa-copy"></i></button>
-            <button onclick="execCmd('paste');"><i class="fa fa-paste"></i></button>
-            <button onclick="execCmd('indent');"><i class="fa fa-indent"></i></button>
-            <button onclick="execCmd('outdent');"><i class="fa fa-dedent"></i></button>
-            <button onclick="execCmd('subscript');"><i class="fa fa-subscript"></i></button>
-            <button onclick="execCmd('superscript');"><i class="fa fa-superscript"></i></button>
-            <button onclick="execCmd('undo');"><i class="fa fa-undo"></i></button>
-            <button onclick="execCmd('redo');"><i class="fa fa-redo"></i></button>
-            <button onclick="execCmd('repeat');"><i class="fa fa-repeat"></i></button>
-            <button onclick="execCmd('insertUnorderedList');"><i class="fa fa-list-ul"></i></button>
-            <button onclick="execCmd('insertORderedList');"><i class="fa fa-list-ol"></i></button>
-            <button onclick="execCmd('paragraph');"><i class="fa fa-paragraph"></i></button>
+            <button onclick="execCmd('bold');" title = "Bold"><i class="fa fa-bold"></i></button>
+            <button onclick="execCmd('italic');" title = "italic"><i class="fa fa-italic"></i></button>
+            <button onclick="execCmd('underline');"title = "underline" ><i class="fa fa-underline"></i></button>
+            <button onclick="execCmd('strikethrough');" title = "strikethrough"><i class="fa fa-strikethrough"></i></button>
+            <button onclick="execCmd('justifyLeft');" title = "justifyLeft"><i class="fa fa-align-left"></i></button>
+            <button onclick="execCmd('justifyCenter');" title = "justifyCenter"><i class="fa fa-align-center"></i></button>
+            <button onclick="execCmd('justifyRight');" title = "justifyRight"><i class="fa fa-align-right"></i></button>
+            <button onclick="execCmd('justifyFull');" title = "justifyFull"><i class="fa fa-align-justify"></i></button>
+            <button onclick="execCmd('cut');" title = "cut"><i class="fa fa-cut"></i></button>
+            <button onclick="execCmd('copy');" title = "copy"><i class="fa fa-copy"></i></button>
+            <button onclick="execCmd('paste');" title = "paste"><i class="fa fa-paste"></i></button>
+            <button onclick="execCmd('indent');" title = "indent"><i class="fa fa-indent"></i></button>
+            <button onclick="execCmd('outdent');" title = "outdent" ><i class="fa fa-dedent"></i></button>
+            <button onclick="execCmd('subscript');" title = "subscript"><i class="fa fa-subscript"></i></button>
+            <button onclick="execCmd('superscript');" title = "superscript"><i class="fa fa-superscript"></i></button>
+            <button onclick="execCmd('undo');" title = "undo"><i class="fa fa-undo"></i></button>
+            <button onclick="execCmd('redo');" title = "redo"><i class="fa fa-redo"></i></button>
+            <button onclick="execCmd('repeat');" title = "repeat"><i class="fa fa-repeat"></i></button>
+            <button onclick="execCmd('insertUnorderedList');" title = "UnorderedList"><i class="fa fa-list-ul"></i></button>
+            <button onclick="execCmd('insertOrderedList');" title = "OrderedList"><i class="fa fa-list-ol"></i></button>
+            <button onclick="execCmd('paragraph');" title = "paragraph"><i class="fa fa-paragraph"></i></button>
             <!-- <button onclick="execCmd('bold');"><i class="fa fa-bold"></i></button> -->
-            <select name="headings" id="" onchange = "execCommandWithArg('formatBlock',this.value) ;">
+            <select name="headings" title = "Headings"  onchange = "execCommandWithArg('formatBlock',this.value) ;">
                 <option value="H1">H1</option>
                 <option value="H2">H2</option>
                 <option value="H3">H3</option>

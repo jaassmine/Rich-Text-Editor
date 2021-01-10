@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(39, 39, 39);
     color: blanchedalmond;
     margin-top: 5%;
     display: flex;
@@ -13,6 +13,8 @@ body{
 }
 
 .container{
+    margin: 5px;
+    padding: 5px;
     background-color: blanchedalmond;
     color: black;
 }
@@ -24,4 +26,8 @@ body{
 button{
     margin: 2px;
     padding: 3px;
+}
+
+iframe{
+    background-color: white;
 }
